@@ -5,8 +5,9 @@ int main(){
     int num2;
     int somma=0;
     int differenza=0;
-    int divisione=0;
+    double divisione=0;
     int moltiplicazione=0;
+    int resto=0;
     printf("inserisci il primo numero\n");
     scanf("%d",&num1);
     printf("inserisci il secondo numero\n");
@@ -16,12 +17,13 @@ int main(){
     differenza = num1-num2;
     moltiplicazione = num1*num2;
     divisione = num1/num2;
+    resto = num1%num2;
    	
     printf("La somma e' %d\n", somma);
     printf("La differenza e' %d\n", differenza);
     printf("La moltiplicazione e' %d\n", moltiplicazione);	    
-    printf("La divisione e' %d\n", divisione);
-
+    printf("La divisione e' %f\n", divisione);
+    printf("Il resto e' %d\n", resto);
  return 0;
 } 
  
