@@ -1,6 +1,4 @@
-fullname.o
+*.o
 fullname
-figure.o
 figure
-operazioni.o
 operazioni
