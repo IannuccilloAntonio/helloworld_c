@@ -5,7 +5,7 @@ int main(){
     int num2;
     int somma=0;
     int differenza=0;
-    double divisione=0;
+    int divisione=0;
     int moltiplicazione=0;
     int resto=0;
     printf("inserisci il primo numero\n");
