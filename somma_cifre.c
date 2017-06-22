@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main(){
 	
 int num, somma;
 
@@ -19,8 +19,7 @@ else {
 	num = num/10;
 	cifra1 = num%10;
 	num = num/10;
-
-somma = cifra3 + cifra2 + cifra1;
+	somma = cifra3 + cifra2 + cifra1;
 	printf("La somma tra %d + %d + %d e'%d", cifra1, cifra2, cifra3, somma );}
 
 return 0; }
